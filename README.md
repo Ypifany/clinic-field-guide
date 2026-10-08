@@ -2,7 +2,10 @@
 
 A static, portable HTML guide by Cheryl Abram. Includes ten clinic sections,
 a continuing fictional food bank case, cloud systems, optional tools, AI
-assistance and review, two original SVG cheat sheets, and inquiry links.
+assistance and review, practice conversations, checks for independent work,
+two original SVG cheat sheets, a simple system map, and inquiry links.
+
+Live guide: https://ypifany.github.io/clinic-field-guide/
 
 ## Open locally
 
@@ -18,11 +21,12 @@ No build, package installation, database, analytics, or account is required.
 5. A custom Ypifany subdomain can be configured later using GitHub's current
    custom-domain documentation. No CNAME or DNS change is included here.
 
-Both inquiry routes currently use the existing Ypifany contact page at
-https://www.ypifany.org/start-a-conversation . No form submissions are handled
-or stored by this HTML. Replace the links if a dedicated intake form is added.
-The participant arranges a willing host organization; the page does not
-promise a mentor match or placement.
+Both inquiry routes use the dedicated clinic contact page at
+https://www.ypifany.org/clinic-contact-form . No form submissions are handled
+or stored by this HTML. A mentor is optional. Participants arrange a willing
+host organization for client work; they can practice without one using the
+fictional case, their own systems, or a sandbox. The page does not promise
+a mentor match or placement.
 
 ## Reuse
 
