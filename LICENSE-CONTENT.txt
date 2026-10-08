@@ -1,6 +1,14 @@
-Original educational text and original cheat-sheet diagrams: Copyright 2026 Cheryl Abram / Ypifany.
-Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
-https://creativecommons.org/licenses/by/4.0/
-Legal code: https://creativecommons.org/licenses/by/4.0/legalcode.en
+Original educational text and original diagrams, including the cheat sheets and system map: Copyright 2026 Cheryl Abram / Ypifany.
 
-Linked tools and third-party material retain their own licenses. This notice does not cover third-party material or logos.
+Current distribution license, updated October 8, 2026:
+Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).
+https://creativecommons.org/licenses/by-nc/4.0/
+Legal code: https://creativecommons.org/licenses/by-nc/4.0/legalcode.en
+
+You may share and adapt this edition for noncommercial purposes with appropriate credit, a license link, and an indication of changes, subject to the license terms.
+For commercial permissions, contact Cheryl Abram / Ypifany:
+https://www.ypifany.org/clinic-contact-form
+
+Earlier material released under CC BY 4.0 remains available under that license; this notice does not withdraw those permissions.
+
+Website code is separately licensed under MIT; see LICENSE-CODE.txt. Linked tools and third-party material retain their own licenses. This notice does not cover third-party material or logos, or automatically license separate Ypifany papers, services, or materials.

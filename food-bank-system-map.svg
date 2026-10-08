@@ -1,5 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" id="food-bank-system-map" width="640" height="1080" viewBox="0 0 640 1080" role="img" aria-labelledby="map-title map-description">
   <title id="map-title">A food bank's digital space</title>
+  <metadata>Copyright 2026 Cheryl Abram / Ypifany. Current distribution: CC BY-NC 4.0. https://creativecommons.org/licenses/by-nc/4.0/</metadata>
   <desc id="map-description">An introductory illustrative plan, not a verified inventory. A staff laptop connects by Wi-Fi to the local router, then through the internet to separate cloud email and folder services and an AI service. The agreed clinic scope may cover client devices, access, and account settings. The providers operate their cloud infrastructure outside the client's control. Staff manually type or paste sample text into the AI service, review its draft, and decide what to use. No direct connection between the AI service and cloud folders is assumed. Who can access data and how long the providers keep it are open questions to investigate.</desc>
   <defs>
     <marker id="map-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#344b60"/></marker>

@@ -30,9 +30,16 @@ a mentor match or placement.
 
 ## Reuse
 
-Original educational content and original diagrams: CC BY 4.0; see
+Current distribution of original educational content and original diagrams:
+CC BY-NC 4.0, updated October 8, 2026; see
 LICENSE-CONTENT.txt. Website code: MIT; see LICENSE-CODE.txt. Linked tools and
 third-party materials retain their own rights and licenses.
+
+Contact Cheryl Abram / Ypifany for commercial permissions:
+https://www.ypifany.org/clinic-contact-form
+
+Earlier material released under CC BY 4.0 remains available under that
+license; this notice does not withdraw those permissions.
 
 Resource descriptions were checked in October 2026. Review links and current
 provider documentation when making substantive updates.
