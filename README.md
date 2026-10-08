@@ -4,6 +4,9 @@ A static, portable HTML guide by Cheryl Abram. Includes ten clinic sections,
 a continuing fictional food bank case, cloud systems, optional tools, AI
 assistance and review, practice conversations, checks for independent work,
 two original SVG cheat sheets, a simple system map, and inquiry links.
+A collapsed professional-work crosswalk connects practice with GRC, RMF,
+and cybersecurity work. The final tab provides a self-contained outcome
+review and portfolio reflection.
 
 Live guide: https://ypifany.github.io/clinic-field-guide/
 
