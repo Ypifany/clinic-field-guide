@@ -1,1 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 328" role="img" aria-label="Keep the evidence clear"><title>Keep the evidence clear</title><metadata>Copyright 2026 Cheryl Abram / Ypifany. Current distribution: CC BY-NC 4.0. https://creativecommons.org/licenses/by-nc/4.0/</metadata><g fill="#17324d" font-family="Arial, sans-serif"><text x="12" y="30" fill="#17324d" font-size="23" font-weight="700">Keep the evidence clear</text><rect x="12" y="55" width="396" height="76" rx="5" fill="#eaf3ff" stroke="#246db5"/><text x="28" y="80" fill="#17232e" font-size="19" font-weight="700">Observation</text><text x="28" y="101" fill="#17232e" font-size="16">What did someone actually see or record?</text><text x="28" y="120" fill="#17232e" font-size="16">Keep the source, date, and scope.</text><rect x="12" y="143" width="396" height="76" rx="5" fill="#f2edff" stroke="#7450b2"/><text x="28" y="168" fill="#17232e" font-size="19" font-weight="700">Interpretation</text><text x="28" y="189" fill="#17232e" font-size="16">What do you think the observation means?</text><text x="28" y="208" fill="#17232e" font-size="16">Show what supports that explanation.</text><rect x="12" y="231" width="396" height="76" rx="5" fill="#fff5da" stroke="#9c7117"/><text x="28" y="256" fill="#17232e" font-size="19" font-weight="700">Unknown</text><text x="28" y="277" fill="#17232e" font-size="16">What can the available evidence not answer?</text><text x="28" y="296" fill="#17232e" font-size="16">Name the next useful check.</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1016 284" role="img" aria-labelledby="title desc">
+  <title id="title">Keep the evidence clear</title>
+  <desc id="desc">Three horizontal boxes distinguish observations or reports, interpretations, and what still needs to be found out. A volunteer reports searching three folders. This may contribute to delays, but a walkthrough and message times are needed to check the explanation.</desc>
+  <metadata>Copyright 2026 Cheryl Abram / Ypifany. Current distribution: CC BY-NC 4.0. https://creativecommons.org/licenses/by-nc/4.0/</metadata>
+  <g font-family="Arial, sans-serif" font-size="16" fill="#17232e">
+    <text x="12" y="26" font-weight="700">Keep the evidence clear</text>
+    <text x="12" y="51">Record what you know, explain what you think, and name what you still need to find out.</text>
+    <rect x="12" y="72" width="320" height="196" rx="5" fill="#eaf3ff" stroke="#246db5"/>
+    <rect x="348" y="72" width="320" height="196" rx="5" fill="#f2edff" stroke="#7450b2"/>
+    <rect x="684" y="72" width="320" height="196" rx="5" fill="#fff5da" stroke="#9c7117"/>
+    <text x="28" y="99" font-weight="700">Observation or report</text>
+    <text x="28" y="126">Write what you saw, read, or were told.</text>
+    <text x="28" y="149">Record the source and date.</text>
+    <text x="28" y="185">A volunteer says they search three</text>
+    <text x="28" y="208">folders. You have not watched</text>
+    <text x="28" y="231">the task yet.</text>
+    <text x="364" y="99" font-weight="700">Interpretation</text>
+    <text x="364" y="126">Write your possible explanation</text>
+    <text x="364" y="149">and what supports it.</text>
+    <text x="364" y="185">Searching several folders may</text>
+    <text x="364" y="208">contribute to the delay. This is</text>
+    <text x="364" y="231">an explanation to test.</text>
+    <text x="700" y="99" font-weight="700">Still to find out</text>
+    <text x="700" y="126">Write the question and how</text>
+    <text x="700" y="149">you could answer it.</text>
+    <text x="700" y="185">Where does the delay occur?</text>
+    <text x="700" y="208">Ask for a recent question, message</text>
+    <text x="700" y="231">times, and a reply walkthrough.</text>
+  </g>
+</svg>
