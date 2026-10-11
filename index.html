@@ -493,7 +493,6 @@ What will be delivered and when:</pre></details>
       <h3>See it at the food bank</h3><div class="example"><p>Willow Creek uses staff laptops, a check-in tablet, a local food inventory server, a printer, a switch, and a router/firewall at its building. Staff and guest Wi-Fi are separated. Six volunteers work from home using Google Workspace Gmail and Google Drive. The public website is hosted on WordPress.com. Remote volunteers have no connection to the local inventory server. The two food-bank-owned staff laptops stay in the building. Maya approves configuration and access decisions; Renee, the volunteer administrator, applies them.</p></div><section class="mapping-guide" aria-labelledby="starter-inventory-heading">
   <h3 id="starter-inventory-heading">List what is here before you draw</h3>
   <p>An asset list is a list of the things people rely on to do their work. Use the workflow from Tab 2 to identify the device, account, service, and information used at each step. Add the equipment and information needed for stock updates and other work in scope. Use names people recognize; IP addresses are not needed for this picture.</p>
-  <p><strong>Staff Wi-Fi</strong> means the network inside the food bank's building. The two work laptops stay there. The six home-based volunteers use their own devices and home internet; they sign into their food bank accounts to use Gmail and Drive.</p>
   <p class="table-intro">This is the fictional food bank's starting inventory. <strong>Asset</strong> names a device, service, account, or data needed for the workflow. <strong>Case facts</strong> gives invented scenario facts, not inspection findings. <strong>Who manages it and what to check</strong> identifies responsibilities and questions to verify during your review.</p>
 <div class="table-wrap">
     <table class="starter-inventory responsive-table">
@@ -521,7 +520,7 @@ What will be delivered and when:</pre></details>
   <details class="network-map-disclosure">
     <summary>Open the food bank's network and system map</summary>
     <figure class="system-map">
-      <div class="map-window" tabindex="0" role="region" aria-label="Food bank network and system map; scroll sideways on a small screen"><svg id="food-bank-system-map" xmlns="http://www.w3.org/2000/svg" width="1100" height="2370" viewBox="0 0 1100 2370" role="img" aria-labelledby="food-bank-map-title food-bank-map-description">
+      <div class="map-window" tabindex="0" role="region" aria-label="Food bank network and system map; scroll sideways on a small screen"><svg id="food-bank-system-map" xmlns="http://www.w3.org/2000/svg" width="1100" height="2440" viewBox="0 0 1100 2440" role="img" aria-labelledby="food-bank-map-title food-bank-map-description">
   <title id="food-bank-map-title">Willow Creek Food Bank: current digital connections</title>
   <desc id="food-bank-map-description">A fictional practice map of the food bank's current systems. Two food-bank-owned laptops are used by Maya and Jordan and stay in the building. They and the check-in tablet connect to the building’s staff Wi-Fi. Renee configures the devices and accounts after Maya approves changes. The laptops have standard staff accounts, automatic updates, encrypted storage, and automatic screen locking. The tablet has a limited account and no permission to read stock records; sharing Wi-Fi does not imply the same permissions. The router and firewall connect by wire to a network switch. A local inventory server, a small computer storing food stock records, and a shared printer connect to that switch by wire. Staff accounts may use the stock records. Visitors use a separate guest Wi-Fi network; firewall rules allow Internet access but block the staff devices, server, and printer. Six of the eighteen volunteers work from home using personal devices and home Internet to access Google Workspace Gmail and the Drive Donor Answers folder. They have no VPN or connection to the local inventory server. Donors read current donation information on the public WordPress.com website and email questions to the food bank. Google operates the underlying computers, storage, and network for Google Workspace; the food bank manages its accounts, roles, and sharing. WordPress.com is hosted by Automattic; the food bank publishes its website content. An AI assistant is proposed but is not installed or enabled, and has no current connection in this map. Colored dashed boxes distinguish staff, guest, personal-device, and provider trust boundaries. Clinic scope is a separate agreement covering approved review of client network and device settings, cloud accounts and sharing, and website publishing. Personal-device settings are out of scope. Provider infrastructure is outside the client's control. No IP addresses or secrets are shown.</desc>
   <metadata>Copyright 2026 Cheryl Abram / Ypifany. CC BY-NC 4.0. https://creativecommons.org/licenses/by-nc/4.0/</metadata>
@@ -539,11 +538,13 @@ What will be delivered and when:</pre></details>
       #food-bank-system-map .route{fill:none;stroke:#45607a;stroke-width:3;stroke-linejoin:round;marker-start:url(#current-arrow);marker-end:url(#current-arrow)}
     </style>
   </defs>
-  <rect width="1100" height="2370" rx="16" fill="#fff"/>
+  <rect width="1100" height="2440" rx="16" fill="#fff"/>
   <text x="35" y="52" class="title">Willow Creek Food Bank</text>
   <text x="35" y="91" class="zone-title">Current digital connections</text>
   <text x="35" y="126" class="muted">Fictional practice setup. No IP addresses or credentials.</text>
+  <text x="35" y="172" class="muted">Legend: colored dashed boxes = trust boundaries; solid arrows = current connections.</text>
 
+  <g transform="translate(0,70)">
   <!-- The staff boundary is a network boundary, not the clinic's scope. -->
   <rect x="35" y="155" width="1030" height="695" rx="16" fill="#eaf3ff" stroke="#246db5" class="boundary"/>
   <text x="65" y="199" class="zone-title">Staff network — at the building</text>
@@ -656,7 +657,8 @@ What will be delivered and when:</pre></details>
   <text x="65" y="2192" class="node-title">Clinic scope is a separate agreement</text>
   <text x="65" y="2230">Approved review: client network/device settings, cloud accounts/sharing,</text>
   <text x="65" y="2265">and website publishing. Personal-device settings are out of scope.</text>
-  <text x="35" y="2340" class="muted">Legend: colored dashed boxes = trust boundaries; solid arrows = current connections.</text>
+  </g>
+  <text x="35" y="2410" class="muted">Legend: colored dashed boxes = trust boundaries; solid arrows = current connections.</text>
 </svg>
 </div><p class="map-download"><a href="food-bank-system-map.svg" download>Open or download the full-size map</a></p>
       <figcaption>Local devices, network zones, outside services, and their users. Compare the picture with the list and agreed scope. A diagram does not prove that controls work. On a phone, swipe across the picture to see both sides, or open the full-size map.</figcaption>
