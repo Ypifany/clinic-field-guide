@@ -1,6 +1,6 @@
 <svg id="food-bank-system-map" xmlns="http://www.w3.org/2000/svg" width="1100" height="2370" viewBox="0 0 1100 2370" role="img" aria-labelledby="food-bank-map-title food-bank-map-description">
   <title id="food-bank-map-title">Willow Creek Food Bank: current digital connections</title>
-  <desc id="food-bank-map-description">A fictional practice map of the food bank's current systems. Two staff laptops and a volunteer check-in tablet connect to staff Wi-Fi. The tablet has a limited account and no permission to read stock records; sharing Wi-Fi does not imply the same permissions. The router and firewall connect by wire to a network switch. A local inventory server, a small computer storing food stock records, and a shared printer connect to that switch by wire. Staff accounts may use the stock records. Visitors use a separate guest Wi-Fi network; firewall rules allow Internet access but block the staff devices, server, and printer. Six of the eighteen volunteers work from home using personal devices and home Internet to access Google Workspace Gmail and the Drive Donor Answers folder. They have no VPN or connection to the local inventory server. Donors read current donation information on the public WordPress.com website and email questions to the food bank. Google operates the underlying computers, storage, and network for Google Workspace; the food bank manages its accounts, roles, and sharing. WordPress.com is hosted by Automattic; the food bank publishes its website content. An AI assistant is proposed but is not installed or enabled, and has no current connection in this map. Colored dashed boxes distinguish staff, guest, personal-device, and provider trust boundaries. Clinic scope is a separate agreement covering approved review of client network and device settings, cloud accounts and sharing, and website publishing. Personal-device settings are out of scope. Provider infrastructure is outside the client's control. No IP addresses or secrets are shown.</desc>
+  <desc id="food-bank-map-description">A fictional practice map of the food bank's current systems. Two food-bank-owned laptops are used by Maya and Jordan and stay in the building. They and the check-in tablet connect to the building’s staff Wi-Fi. Renee configures the devices and accounts after Maya approves changes. The laptops have standard staff accounts, automatic updates, encrypted storage, and automatic screen locking. The tablet has a limited account and no permission to read stock records; sharing Wi-Fi does not imply the same permissions. The router and firewall connect by wire to a network switch. A local inventory server, a small computer storing food stock records, and a shared printer connect to that switch by wire. Staff accounts may use the stock records. Visitors use a separate guest Wi-Fi network; firewall rules allow Internet access but block the staff devices, server, and printer. Six of the eighteen volunteers work from home using personal devices and home Internet to access Google Workspace Gmail and the Drive Donor Answers folder. They have no VPN or connection to the local inventory server. Donors read current donation information on the public WordPress.com website and email questions to the food bank. Google operates the underlying computers, storage, and network for Google Workspace; the food bank manages its accounts, roles, and sharing. WordPress.com is hosted by Automattic; the food bank publishes its website content. An AI assistant is proposed but is not installed or enabled, and has no current connection in this map. Colored dashed boxes distinguish staff, guest, personal-device, and provider trust boundaries. Clinic scope is a separate agreement covering approved review of client network and device settings, cloud accounts and sharing, and website publishing. Personal-device settings are out of scope. Provider infrastructure is outside the client's control. No IP addresses or secrets are shown.</desc>
   <metadata>Copyright 2026 Cheryl Abram / Ypifany. CC BY-NC 4.0. https://creativecommons.org/licenses/by-nc/4.0/</metadata>
   <defs>
     <marker id="current-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#45607a"/></marker>
@@ -23,13 +23,13 @@
 
   <!-- The staff boundary is a network boundary, not the clinic's scope. -->
   <rect x="35" y="155" width="1030" height="695" rx="16" fill="#eaf3ff" stroke="#246db5" class="boundary"/>
-  <text x="65" y="199" class="zone-title">Staff network</text>
-  <text x="65" y="231">Client-managed devices and access rules</text>
+  <text x="65" y="199" class="zone-title">Staff network — at the building</text>
+  <text x="65" y="231">Renee configures devices; Maya approves changes</text>
 
   <rect x="65" y="265" width="310" height="115" rx="12" class="node"/>
   <text x="89" y="303" class="node-title">2 staff laptops</text>
-  <text x="89" y="335">Staff Wi-Fi</text>
-  <text x="89" y="365">Staff accounts</text>
+  <text x="89" y="335">Building’s staff Wi-Fi</text>
+  <text x="89" y="365">Food bank owned; stay here</text>
 
   <rect x="735" y="265" width="300" height="160" rx="12" class="node"/>
   <text x="757" y="301" class="node-title">1 check-in tablet</text>
@@ -81,8 +81,8 @@
   <text x="65" y="1244">6 of 18 work from home</text>
   <text x="65" y="1277">Personal devices + home Internet</text>
   <text x="65" y="1310">Gmail + Drive access</text>
-  <text x="65" y="1350">No VPN; no connection to the</text>
-  <text x="65" y="1382">local inventory server</text>
+  <text x="65" y="1343">One uses an old local spreadsheet</text>
+  <text x="65" y="1382">No VPN or local stock access</text>
   <text x="65" y="1416" class="muted">Personal settings: out of scope</text>
   <path d="M425 1310H465" class="route"/>
 
