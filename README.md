@@ -1,4 +1,4 @@
-# Ypifany Cybersecurity AI Risk and Governance Field Guide
+# Ypifany Cybersecurity, Risk, and Governance Field Guide
 
 A static, portable HTML guide by Cheryl Abram. Includes ten clinic sections,
 a continuing fictional food bank case, cloud systems, optional tools, AI
@@ -26,7 +26,7 @@ No build, package installation, database, analytics, or account is required.
 
 Both inquiry routes use the dedicated clinic contact page at
 https://www.ypifany.org/clinic-contact-form . No form submissions are handled
-or stored by this HTML. A mentor is optional. Participants arrange a willing
+or stored by this HTML. Participants arrange a willing
 host organization for client work; they can practice without one using the
 fictional case, their own systems, or a sandbox. The page does not promise
 a mentor match or placement.
