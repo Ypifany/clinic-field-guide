@@ -655,7 +655,7 @@ window.addEventListener('afterprint', () => document.body.classList.remove('prin
     const destination = target.matches('details.clinic-tab')
       ? target.querySelector(':scope > summary')
       : target;
-    requestAnimationFrame(() => destination.scrollIntoView({ block: 'start' }));
+    destination.scrollIntoView({ block: 'start', behavior: 'instant' });
   }
 
   document.addEventListener('click', event => {
@@ -665,7 +665,7 @@ window.addEventListener('afterprint', () => document.body.classList.remove('prin
       const summary = tab.querySelector(':scope > summary');
       tab.open = false;
       summary.focus({ preventScroll: true });
-      summary.scrollIntoView({ block: 'start' });
+      summary.scrollIntoView({ block: 'start', behavior: 'instant' });
       return;
     }
 
@@ -676,7 +676,10 @@ window.addEventListener('afterprint', () => document.body.classList.remove('prin
     if (!target) return;
     reveal(target);
     // A second click on the same hash does not fire hashchange.
-    if (anchor.getAttribute('href') === window.location.hash) scrollToTarget(target);
+    if (anchor.getAttribute('href') === window.location.hash) {
+      event.preventDefault();
+      scrollToTarget(target);
+    }
   });
 
   function revealCurrentHash() {
