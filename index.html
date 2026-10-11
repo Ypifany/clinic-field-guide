@@ -51,6 +51,16 @@
 .engagement-purpose{padding:1rem 1.2rem;margin:1.2rem 0;border:1px solid #b8d2c4;border-left:5px solid #275d4c;border-radius:5px;background:#e8f4ef;color:#17232e}
 .engagement-purpose h3{margin:.1rem 0 .6rem;color:#17324d;font-size:1.15rem}
 .engagement-purpose p{margin:.4rem 0;color:#17232e;font-size:1rem;line-height:1.65}
+.financial-value{background:#f3f7fb;color:#17232e}
+.financial-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem;margin:1rem 0}
+.financial-card{padding:1rem;border:1px solid #246db5;border-radius:5px;background:#eaf3ff;color:#17232e;overflow-wrap:anywhere}
+.financial-card.money-moving{background:#e8f4ef;border-color:#275d4c}
+.financial-card.unfenced-value{background:#f2edff;border-color:#7450b2}
+.financial-card h4{font-size:1rem;line-height:1.4;margin:.4rem 0 .6rem;color:#17324d}
+.financial-card p{color:#17232e;font-size:1rem}
+.financial-card p:last-child{margin-bottom:0}
+.financial-functions{font-size:.9rem!important;font-weight:650;line-height:1.45;margin:.1rem 0;color:#275d4c!important}
+@media(max-width:1100px){.financial-grid{grid-template-columns:1fr}}
 .case-intro h4{color:#275d4c;font-size:1rem;margin:1.3rem 0 .5rem}
 .case-intro table{background:#fff;border:1px solid #b8d2c4}
 .case-intro caption{caption-side:bottom;text-align:left;padding:.55rem 0;color:#4b6073;font-size:.9rem}
@@ -162,11 +172,22 @@ button:focus-visible{outline:3px solid #bc5b00;outline-offset:4px}
 <div class="clinic-intro"><h2>What is a cybersecurity clinic?</h2><p>A cybersecurity clinic brings people learning or practicing cybersecurity together with an organization or homeowner who wants help. Participants examine how digital systems are used, consider risks and opportunities, and provide practical recommendations. The client decides which recommendations to adopt and implement. Clients get support, and participants build skills and gain experience through the work.</p></div>
 <section class="clinic-situations" aria-labelledby="clinic-situations-heading"><h3 id="clinic-situations-heading">Who is this clinic for?</h3>
 <p>A small business, nonprofit, or homeowner may request a clinic when they need a clearer view of how digital systems support their work and what decisions need attention. For example:</p>
-<ul><li><strong>You do not have a clear picture of your digital space.</strong> Find out which devices, accounts, services, and people you rely on, who can reach your information, and who makes the decisions.</li>
+<ul><li><strong>You do not have a clear picture of your digital space.</strong> Find out which cloud services, AI, automated tools, devices, accounts, and people you rely on, who can reach your information, what they can do, and who makes the decisions.</li>
 <li><strong>Daily work takes too much time or produces avoidable errors.</strong> Examine whether instructions, access, settings, and information help people work reliably.</li>
-<li><strong>You already use cloud services, AI, or automated tools.</strong> Examine what they can read or do, how people check their work, and how someone can correct a mistake or stop an unwanted action.</li>
 <li><strong>You are planning a change.</strong> Explore the cybersecurity implications of a new tool, remote work, shared access, or a new service before deciding what to use.</li>
-<li><strong>You are preparing for a contract, assessment, or certification.</strong> Identify the requirements that apply, compare them with evidence, and document gaps and questions that need further review.</li></ul>
+<li><strong>You are preparing for a contract, assessment, grant, or certification.</strong> Identify the requirements that apply, compare them with evidence, and document gaps and questions that need further review.</li>
+<li><strong>You want to see how cybersecurity contributes to your financial goals.</strong> Examine how it supports income or funding, keeps money moving, reduces wasted time and expense, and protects valuable relationships.</li>
+<li><strong>You have experienced a disruption or loss of trust.</strong> Examine unexpected account activity, unavailable information, or misleading messages. Use records and what people tell you to understand what happened, who can decide what to do next, and how to make the work dependable again.</li></ul>
+<details id="financial-value" class="foundations financial-value"><summary>Where the money shows up</summary>
+<p>Cybersecurity can contribute to financial results in several ways. These three areas from the <a href="https://ypifany.github.io/GR-Operations/">Governance and Risk Operations</a> model help you examine the connection. Look for evidence of the contribution and what it costs.</p>
+<div class="financial-grid">
+<section class="financial-card buying-power" aria-labelledby="buying-power-heading"><p class="financial-functions">Repair and recover · Regulate priorities</p><h4 id="buying-power-heading">Buying power</h4><p>Show how you limit disruption, choose priorities, and restore important work. That evidence can support discussions with a lender, insurer, large customer, or funder.</p><p><strong>Look for:</strong> Their actual requirements, the evidence you provided, and any recorded effect on eligibility, terms, or price. A stronger security program does not by itself guarantee cheaper credit or insurance.</p></section>
+<section class="financial-card money-moving" aria-labelledby="money-moving-heading"><p class="financial-functions">Sustain function</p><h4 id="money-moving-heading">Keeping money moving</h4><p>Keep the work that brings money in and pays necessary bills operating. Examine access to invoicing, payments, donation records, and payroll, including what happens when a device, account, or service is unavailable.</p><p><strong>Look for:</strong> Collection or payment delays, interrupted work, time needed to restore access, and actual costs. For a home, this might mean being able to pay bills on time.</p></section>
+<section class="financial-card unfenced-value" aria-labelledby="unfenced-value-heading"><p class="financial-functions">Act · Interpret signals</p><h4 id="unfenced-value-heading">Value that cannot be fenced</h4><p>Relationships, reputation, contracts, and trust need reliable information and actions. Examine whether you can show who did what, check whether a message is real, and correct misleading information.</p><p><strong>Look for:</strong> Approval records, corrections, feedback, and documented effects on relationships or work. For a nonprofit, trace an approved donation message and how an inaccurate one would be corrected.</p></section>
+</div>
+<p>For a nonprofit, financial value may mean dependable donations or more resources available for its mission. For a business, compare income, costs, collection time, and useful opportunities. Keep expected gains separate from measured results, and include the cost of the controls and the people maintaining them.</p>
+<div class="tab-actions"><button type="button" data-close-section aria-label="Close Where the money shows up">Close section</button></div>
+</details>
 <p>Greater visibility can help you reduce wasted time, money, and effort and make decisions that support your mission or goals more safely. The engagement may review a particular task or a wider digital environment. Agree on the systems, information, methods, and evidence it will cover before starting.</p>
 <p>For a readiness review, use the current requirements and official guidance for the applicable program, such as <a href="https://dodcio.defense.gov/CMMC/Resources-Documentation/">CMMC (Cybersecurity Maturity Model Certification)</a>. This guide helps organize clinic work; it does not itself establish certification or replace a required formal assessment.</p></section>
 <div class="guide-roles"><h3>Who is the participant? Who is the client?</h3><p><strong>The participant is you:</strong> the person using this guide to learn or practice clinic work. When the guide says “you,” it means the participant.</p><p><strong>The client</strong> is the organization, household, or person receiving help. For your project, identify who can authorize the work and make decisions for the client. If you are examining your own digital space, you may fill both roles.</p><p>In each “What to say” table, <strong>Client says</strong> gives a sample statement from someone at the fictional food bank. The other columns show what a participant could ask and listen for. Adapt the questions to the people and work in your own project.</p></div>
