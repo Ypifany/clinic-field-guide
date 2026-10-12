@@ -67,6 +67,26 @@
 .tab-actions button:hover{background:#eaf3ff}
 .guide-roles{padding:.1rem 0 .3rem}
 .guide-roles h3{margin-top:1rem}
+.participant-entry{padding:1.1rem 1.2rem;margin:1.3rem 0;background:#eaf3ff;border:1px solid #b4cde3;border-left:5px solid #246db5;border-radius:5px;color:#17232e}
+.participant-entry h2{font-size:1.45rem;margin:.1rem 0 .65rem;color:#17324d}
+.participant-skills{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.65rem 1.1rem;list-style:none;padding:0;margin:1rem 0}
+.participant-skills li{margin:0;overflow-wrap:anywhere}
+.participant-skills strong{display:block;color:#17324d}
+.participant-actions{display:flex;flex-wrap:wrap;gap:.7rem;margin:1rem 0}
+.participant-actions a{min-height:44px;text-align:center;background:#fff;color:#145b91}
+.participant-actions .participant-primary{background:#145b91;color:#fff}
+.participant-entry .participant-route,.participant-entry .participant-links{font-size:.95rem;margin:.6rem 0 0}
+.starter-project,.starter-quality{border-radius:5px;color:#17232e}
+.starter-project{background:#fff5e8;border-color:#cd9a6f;border-left:5px solid #a3541b}
+.starter-quality{background:#f2edff;border-color:#b6a3d0;border-left:5px solid #7450b2}
+.starter-project>summary,.starter-quality>summary{min-height:44px;color:#17324d}
+.starter-project>summary h3,.starter-quality>summary h3{display:inline;font-size:1.15rem;margin:0;color:#17324d}
+.finding-example{border:1px solid #cd9a6f;border-left:4px solid #a3541b;background:#fff5e8;padding:.8rem 1rem;border-radius:4px;margin:1rem 0;color:#17232e}
+.finding-example h3{font-size:1.1rem;margin:.1rem 0 .6rem;color:#17324d}
+.finding-supported{border-color:#b8d2c4;border-left-color:#275d4c;background:#e8f4ef}
+.finding-example p:last-child{margin-bottom:.2rem}
+.small-start-reminder{background:#fff5e8;border-left:3px solid #a3541b;padding:.65rem .8rem}
+@media(max-width:650px){.participant-skills{grid-template-columns:1fr}.participant-entry{padding:1rem}.participant-actions{flex-direction:column}.participant-actions a{width:100%}}
 .engagement-purpose{padding:1rem 1.2rem;margin:1.2rem 0;border:1px solid #b8d2c4;border-left:5px solid #275d4c;border-radius:5px;background:#e8f4ef;color:#17232e}
 .engagement-purpose h3{margin:.1rem 0 .6rem;color:#17324d;font-size:1.15rem}
 .engagement-purpose p{margin:.4rem 0;color:#17232e;font-size:1rem;line-height:1.65}
@@ -181,13 +201,75 @@ button:focus-visible{outline:3px solid #bc5b00;outline-offset:4px}
 
 </style></head><body id="top">
 <a class="skip" href="#main">Skip to content</a>
-<aside class="sidebar"><a class="brand" href="#start">YPIFANY FIELD GUIDE</a><p class="nav-label">Cybersecurity · Risk · Governance</p><nav aria-label="Guide sections"><a href="#start">Start here</a><a href="#tab-1"><span>01</span> Understand the Situation</a><a href="#tab-2"><span>02</span> Discover How Work Happens</a><a href="#tab-3"><span>03</span> List and Map the System</a><a href="#tab-4"><span>04</span> Check and Complete the Inventory</a><a href="#tab-5"><span>05</span> Examine Risk in Context</a><a href="#tab-6"><span>06</span> Review Human-Technology Collaboration</a><a href="#tab-7"><span>07</span> Test Claims and Controls</a><a href="#tab-8"><span>08</span> Put Governance into Practice</a><a href="#tab-9"><span>09</span> Present Findings and Agree on Next Steps</a><a href="#tab-10"><span>10</span> Evaluate and Revalue</a><a href="#tools">Tools and resources</a><a href="#get-involved">Organizations and mentors</a><a href="#sources">Sources and reuse</a></nav><small>By Cheryl Abram<br><a href="https://www.ypifany.org/">Ypifany</a> · <a href="#sources">CC BY-NC 4.0</a></small></aside>
-<nav class="mobile-nav" aria-label="Mobile guide sections"><p class="nav-label">Guide sections</p><div class="mobile-links"><a href="#start">Start here</a><a href="#tab-1"><span>01</span> Understand the Situation</a><a href="#tab-2"><span>02</span> Discover How Work Happens</a><a href="#tab-3"><span>03</span> List and Map the System</a><a href="#tab-4"><span>04</span> Check and Complete the Inventory</a><a href="#tab-5"><span>05</span> Examine Risk in Context</a><a href="#tab-6"><span>06</span> Review Human-Technology Collaboration</a><a href="#tab-7"><span>07</span> Test Claims and Controls</a><a href="#tab-8"><span>08</span> Put Governance into Practice</a><a href="#tab-9"><span>09</span> Present Findings and Agree on Next Steps</a><a href="#tab-10"><span>10</span> Evaluate and Revalue</a><a href="#tools">Tools and resources</a><a href="#get-involved">Organizations and mentors</a><a href="#sources">Sources and reuse</a></div></nav>
+<aside class="sidebar"><a class="brand" href="#start">YPIFANY FIELD GUIDE</a><p class="nav-label">Cybersecurity · Risk · Governance</p><nav aria-label="Guide sections"><a href="#start">Start here</a><a href="#starter-project">Start a small project</a><a href="#tab-1"><span>01</span> Understand the Situation</a><a href="#tab-2"><span>02</span> Discover How Work Happens</a><a href="#tab-3"><span>03</span> List and Map the System</a><a href="#tab-4"><span>04</span> Check and Complete the Inventory</a><a href="#tab-5"><span>05</span> Examine Risk in Context</a><a href="#tab-6"><span>06</span> Review Human-Technology Collaboration</a><a href="#tab-7"><span>07</span> Test Claims and Controls</a><a href="#tab-8"><span>08</span> Put Governance into Practice</a><a href="#tab-9"><span>09</span> Present Findings and Agree on Next Steps</a><a href="#tab-10"><span>10</span> Evaluate and Revalue</a><a href="#tools">Tools and resources</a><a href="#get-involved">Organizations and mentors</a><a href="#sources">Sources and reuse</a></nav><small>By Cheryl Abram<br><a href="https://www.ypifany.org/">Ypifany</a> · <a href="#sources">CC BY-NC 4.0</a></small></aside>
+<nav class="mobile-nav" aria-label="Mobile guide sections"><p class="nav-label">Guide sections</p><div class="mobile-links"><a href="#start">Start here</a><a href="#starter-project">Start a small project</a><a href="#tab-1"><span>01</span> Understand the Situation</a><a href="#tab-2"><span>02</span> Discover How Work Happens</a><a href="#tab-3"><span>03</span> List and Map the System</a><a href="#tab-4"><span>04</span> Check and Complete the Inventory</a><a href="#tab-5"><span>05</span> Examine Risk in Context</a><a href="#tab-6"><span>06</span> Review Human-Technology Collaboration</a><a href="#tab-7"><span>07</span> Test Claims and Controls</a><a href="#tab-8"><span>08</span> Put Governance into Practice</a><a href="#tab-9"><span>09</span> Present Findings and Agree on Next Steps</a><a href="#tab-10"><span>10</span> Evaluate and Revalue</a><a href="#tools">Tools and resources</a><a href="#get-involved">Organizations and mentors</a><a href="#sources">Sources and reuse</a></div></nav>
 <main id="main"><header id="start">
 <p class="section-number">A PUBLIC FIELD GUIDE FOR CLINIC WORK</p>
 <h1>Cybersecurity, Risk, and Governance Field Guide</h1>
 <p class="byline">By Cheryl Abram (with help from ChatGPT to summarize sources, develop examples, create diagrams, organize and format the text, and build this website).<br>Ypifany · First edition, revised · October 2026</p>
 <p class="intro">Help people (business owners, homeowners, nonprofit directors, staff, volunteers, and others) understand what is happening in their digital space, make real choices, and use technology to fulfill their purpose and thrive.</p>
+<section class="participant-entry" aria-labelledby="participant-entry-heading">
+  <h2 id="participant-entry-heading">Build skills through a project of your own</h2>
+  <p>If you want cybersecurity practice, this guide helps you examine a digital system, gather evidence, and explain useful next steps. It is especially useful for GRC (governance, risk, and compliance), controls assessment, and client advisory work.</p>
+  <ul class="participant-skills">
+    <li><strong>Understand the work.</strong> Ask useful questions, trace a workflow, and define scope.</li>
+    <li><strong>Make the system visible.</strong> Build an inventory, draw connections, and examine access.</li>
+    <li><strong>Assess and explain.</strong> Compare controls with criteria and write findings supported by evidence.</li>
+    <li><strong>Support decisions.</strong> Present practical options and identify what needs follow-up.</li>
+  </ul>
+  <p><strong>Start small:</strong> Review one file in an account you own and produce a short evidence note. Plan about 20–30 minutes for a first session; take longer or return later as needed. You can do this on your own.</p>
+  <div class="participant-actions"><a class="cta participant-primary" href="#starter-project">Start with one file</a><a class="cta" href="#tab-1">Begin a full clinic project</a></div>
+  <p class="participant-route">New to assessment? Try the small project below. Already have a project? Start with Tab 1 and work through the tabs in sessions that fit its scope. Keep the work you personally create as evidence of your practice.</p>
+  <p class="participant-links"><a href="#career-crosswalk">See the skills and professional-work connections</a> · <a href="#clinic-situations-heading">See when a client might request a clinic</a></p>
+</section>
+<details id="starter-project" class="foundations starter-project" aria-labelledby="starter-project-heading">
+  <summary><h3 id="starter-project-heading">Start with one file you own</h3></summary>
+  <p>This small project lets you practice gathering evidence and writing a finding before taking on a full clinic engagement. Use one harmless file containing invented information in your own Google Drive, or a similar service you already use. You do not need an outside client or another person to complete it.</p>
+  <p><strong>Suggested first session:</strong> 20–30 minutes. This is a planning estimate; unfamiliar settings may take longer. Stop and resume whenever you need to.</p>
+  <p><strong>Before you begin:</strong> You need an existing account, a file you own, and access to that file’s sharing settings. Use a personal account you control and a file outside any shared folder. If a service or setting is unavailable, record that limit rather than guessing.</p>
+  <p><strong>Your goal:</strong> Find out whether the file’s sharing settings match its purpose and the access you intend. <strong>Your scope:</strong> This one file, its sharing settings, and the account you use to inspect them. You are not assessing your whole account or the cloud provider.</p>
+  <ol>
+    <li><strong>State your purpose and expected access.</strong> Create or choose a file with invented information, such as a sample grocery list. Write why you keep it and who should be able to view or edit it. Keeping it available only to yourself is a valid choice.</li>
+    <li><strong>Inspect its actual sharing settings.</strong> In Google Drive, select the file and choose Share to open its sharing panel. Check the named people or accounts, their permissions, and general access. Read what access a link would give someone. Record the service’s actual labels. If the panel shows access coming from a folder, record that source too. If no one else is listed, record that too. You do not need to invite anyone or send the link.</li>
+    <li><strong>Record your evidence.</strong> Note the service, file, date, settings you inspected, and what you observed. Use notes or a screenshot in tools you already use. Keep account details and sharing links out of anything you plan to publish.</li>
+    <li><strong>Compare your expectation with what you found.</strong> Does the observed access fit the purpose you wrote down? Name any difference. Separate settings you confirmed from questions you could not answer. If everything matches, that is a useful result too.</li>
+    <li><strong>Write a finding about this file.</strong> Explain the intended access, observed setting, evidence, and why the result matters for your purpose. Recommend a next step, or explain why keeping the current setting fits. You do not need to change any setting to finish this project.</li>
+  </ol>
+  <p><strong>Your finished work:</strong> A short evidence note covering the purpose, scope, expectation, observation, source, date, limits, and recommendation. Review it with the <a href="#starter-quality">examples of weak and well-supported findings</a>.</p>
+  <p>You have practiced inspecting access, recording evidence, and explaining a finding. Describe only the work you actually performed in a portfolio or résumé. For a fuller project, continue to <a href="#tab-1">Tab 1: Understand the Situation</a> and choose a manageable engagement.</p>
+  <div class="tab-actions"><button type="button" data-close-section aria-label="Close the starter project">Close section</button></div>
+</details>
+<details id="starter-quality" class="foundations starter-quality" aria-labelledby="starter-quality-heading">
+  <summary><h3 id="starter-quality-heading">How to judge your first finding</h3></summary>
+  <p>These examples are invented. They show how to turn an observation into a useful finding. For your project, record what you actually checked and found. Copying an example does not show that you performed an assessment.</p>
+
+  <div class="finding-example finding-needs-work">
+    <h3>A finding that needs more work</h3>
+    <p><strong>“My cloud files are insecure.”</strong></p>
+    <p>This statement does not identify a file, its intended use, the setting reviewed, or the evidence. It also makes a claim about all cloud files when the task covers one. A reader cannot tell what needs attention or why.</p>
+  </div>
+
+  <div class="finding-example finding-supported">
+    <h3>A finding supported by evidence</h3>
+    <p><strong>Goal:</strong> Only the participant should be able to read “Clinic starter note,” a file containing harmless invented text.</p>
+    <p><strong>Observation:</strong> On [review date], the participant opened this file’s sharing settings in Google Drive. General access showed “Anyone with the link,” with the role “Viewer.” The participant kept a screenshot in their own project record.</p>
+    <p><strong>Meaning:</strong> This setting can allow someone with the link to read the file, which differs from the intended access. It does not prove that anyone else read it.</p>
+    <p><strong>Recommended next step:</strong> Confirm that the intended access is still correct. If authorized, change General access to “Restricted,” review access granted to named people or through a folder, and check the result. Record any permissions you cannot change or verify.</p>
+    <p><strong>Limits:</strong> This review covered one file’s visible sharing settings. It did not establish its access history, assess other files, or prove that the cloud account is secure.</p>
+  </div>
+
+  <h3>Ask four questions about your own work</h3>
+  <ol>
+    <li><strong>What did I observe?</strong> Name the file or setting, the date, and the evidence. Keep what you saw separate from what you inferred.</li>
+    <li><strong>What was supposed to happen?</strong> Compare the observation with the intended access or use. Record who confirmed that intention.</li>
+    <li><strong>Why does the result matter?</strong> Explain how the observed setting supports or interferes with the file’s purpose. Describe possible consequences within this task’s boundary. Do not claim harm occurred without evidence.</li>
+    <li><strong>What can happen next?</strong> Give a practical next step, identify who can approve it, and state what still needs checking.</li>
+  </ol>
+  <p>Matching the intended access is a valid result. So is reporting that more evidence is needed. Do not widen access or invent a problem to produce a finding.</p>
+  <p>Review your work using these questions. If a peer is available, ask them to identify any claim they cannot trace to evidence. A peer’s opinion is another perspective to consider; verify any suggested correction.</p>
+  <div class="tab-actions"><button type="button" data-close-section aria-label="Close How to judge your first finding">Close section</button></div>
+</details>
+
 <div class="clinic-intro"><h2>What is a cybersecurity clinic?</h2><p>A cybersecurity clinic brings people learning or practicing cybersecurity together with an organization or homeowner who wants help. Participants examine how digital systems are used, consider risks and opportunities, and provide practical recommendations. The client decides which recommendations to adopt and implement. Clients get support, and participants build skills and gain experience through the work.</p></div>
 <section class="clinic-situations" aria-labelledby="clinic-situations-heading"><h3 id="clinic-situations-heading">Who is this clinic for?</h3>
 <p>A small business, nonprofit, or homeowner may request a clinic when they need a clearer view of how digital systems support their work and what decisions need attention. For example:</p>
@@ -393,7 +475,7 @@ What will be delivered and when:</pre><div class="tab-actions"><button type="but
 </div>
 
       <h3>What to say</h3><p class="table-intro">Use this sample conversation to ask about the client's experience without jumping to conclusions. <strong>Client says</strong> gives their statement; <strong>Participant avoids saying or leading with</strong> shows an assumption to avoid; <strong>Participant asks instead</strong> offers a question; <strong>Participant listens for</strong> identifies details to explore or verify.</p>
-<div class="table-wrap conversation-wrap"><table class="conversation-table"><caption>An example conversation between the client and you, the participant. Listen for details to ask about and verify.</caption><thead><tr><th scope="col">Client says</th><th scope="col">Participant avoids saying or leading with</th><th scope="col">Participant asks instead</th><th scope="col">Participant listens for</th></tr></thead><tbody><tr><td data-label="Client says">When donor emails pile up, we stop packing groceries to catch up. Some donors also receive the old drop-off time. Could AI help?</td><td data-label="Participant avoids saying or leading with">Wouldn’t a chatbot fix that?</td><td data-label="Participant asks instead">Can you walk me through a recent donor question and what happened after the reply? What would a better result look like for donors and distribution?</td><td data-label="Participant listens for">Current information sources, delays, incorrect hours, repeated calls or trips, interruptions to distribution, and who can decide on a change.</td></tr></tbody></table></div><div class="practice-task">
+<div class="table-wrap conversation-wrap"><table class="conversation-table"><caption>An example conversation between the client and you, the participant. Listen for details to ask about and verify.</caption><thead><tr><th scope="col">Client says</th><th scope="col">Participant avoids saying or leading with</th><th scope="col">Participant asks instead</th><th scope="col">Participant listens for</th></tr></thead><tbody><tr><td data-label="Client says">When donor emails pile up, we stop packing groceries to catch up. Some donors also receive the old drop-off time. Could AI help?</td><td data-label="Participant avoids saying or leading with">Wouldn’t a chatbot fix that?</td><td data-label="Participant asks instead">Can you walk me through a recent donor question and what happened after the reply? What would a better result look like for donors and distribution?</td><td data-label="Participant listens for">Current information sources, delays, incorrect hours, repeated calls or trips, interruptions to distribution, and who can decide on a change.</td></tr></tbody></table></div><p class="small-start-reminder">If you want a smaller first step, <a href="#starter-project">start with one file you own</a>. Then return here when you are ready to define a fuller project.</p><div class="practice-task">
   <h3>Your practice task</h3>
   <p>Choose your own home, a church, a nonprofit, a small business, or a test environment for your project. Use the food bank example to see how the method works, then apply it to your chosen situation. For work involving someone else's systems or information, agree on permission and scope before you begin.</p>
   <ol>
