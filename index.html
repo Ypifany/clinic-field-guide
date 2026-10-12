@@ -1266,8 +1266,11 @@ window.addEventListener('afterprint', () => document.body.classList.remove('prin
     const readingLine = Math.min(180, window.innerHeight * 0.25);
     let current = navigationSections[0];
     for (const section of navigationSections) {
-      if (section.getBoundingClientRect().top <= readingLine) current = section;
-      else break;
+      const bounds = section.getBoundingClientRect();
+      if (bounds.top > readingLine) break;
+      // The starter is inside Start Here. Return to Start Here after its end.
+      if (section.id === 'starter-project' && bounds.bottom < readingLine) continue;
+      current = section;
     }
     if (current) markCurrentSection(current.id);
   }
