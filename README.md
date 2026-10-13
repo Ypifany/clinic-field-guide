@@ -1,7 +1,7 @@
-# Ypifany Cybersecurity, Risk, and Governance Field Guide
+# Cybersecurity Clinic Field Guide
 
 A static, portable HTML guide by Cheryl Abram. Includes ten clinic sections,
-a continuing fictional food bank case, cloud systems, optional tools, AI
+a continuing fictional food bank worked example, cloud systems, optional tools, AI
 assistance and review, practice conversations, checks for independent work,
 two original SVG cheat sheets, a simple system map, and inquiry links.
 A collapsed professional-work crosswalk connects practice with GRC, RMF,
@@ -12,8 +12,26 @@ Live guide: https://ypifany.github.io/clinic-field-guide/
 
 ## Open locally
 
-Open index.html in a browser. Keep the SVG and license files beside it.
+Open index.html in a browser. Keep all supplied files together, including
+the SVG diagrams, PNG image, and license files.
 No build, package installation, database, analytics, or account is required.
+
+## Use the guide
+
+Start with a bounded one-file review or choose your own full project.
+Each tab identifies the inputs, task, and work to keep. Optional AI help
+includes review guidance in the same expandable section. The mobile contents
+menu opens from the top; next-tab links support working through the guide.
+Checkboxes are temporary self-checks and may reset. Keep project evidence
+and unfinished steps in your own notes. A general browser print includes
+all guide sections; the intake print button selects the sample intake only.
+
+## Verification
+
+This static repository has no authored build command, test suite, or lint
+configuration. Check links, script syntax, keyboard operation, responsive
+layouts, accessibility, and the Pages deployment after substantive changes.
+Automated accessibility results do not establish complete WCAG conformance.
 
 ## Publish on GitHub Pages
 
@@ -27,8 +45,9 @@ No build, package installation, database, analytics, or account is required.
 Both inquiry routes use the dedicated clinic contact page at
 https://www.ypifany.org/clinic-contact-form . No form submissions are handled
 or stored by this HTML. Participants arrange a willing
-host organization for client work; they can practice without one using the
-fictional case, their own systems, or a sandbox. The page does not promise
+host organization for client work; they can practice without one using their
+own systems or a test environment. The fictional food bank illustrates the
+work and is not the participant's project. The page does not promise
 a mentor match or placement.
 
 ## Reuse
